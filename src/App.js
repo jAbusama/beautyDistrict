@@ -6,6 +6,7 @@ import Carousel from './Components/ImageSlider'
 import Welcome from './Components/Welcome'
 import Products from './Components/Products'
 import About from './Components/About'
+import Owner from './Components/Owner'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 
         <Products />
         <About />
+        <Owner />
       </div>
     </Router>
   )

@@ -5,10 +5,10 @@ function Products() {
   return (
     <React.Fragment>
       <div className='container-fluid padding'>
-        <div className='col-4'>
-          <h1 className='display-4'>Products</h1>
-        </div>
         <div className='row text-center padding'>
+          <div className='col-12'>
+            <h1 className='display-4'>Products</h1>
+          </div>
           <div className='col-xs-12 col-sm-6 col-md-3'>
             <div className='card'>
               <img src='' alt='' className='card-img-top' />
