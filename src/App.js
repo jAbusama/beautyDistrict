@@ -7,6 +7,8 @@ import Welcome from './Components/Welcome'
 import Products from './Components/Products'
 import About from './Components/About'
 import Owner from './Components/Owner'
+import Team from './Components/TeamNextdapps'
+import Social from './Components/Social'
 import './App.css'
 
 function App() {
@@ -16,10 +18,11 @@ function App() {
         <Nav />
         <Carousel />
         <Welcome />
-
         <Products />
         <About />
         <Owner />
+        <Team />
+        <Social />
       </div>
     </Router>
   )
