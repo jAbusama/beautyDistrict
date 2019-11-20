@@ -9,18 +9,21 @@ function Social() {
             <h2>Social</h2>
           </div>
           <div className='col-12 social padding'>
-            <Link to='facebook.com'>
+            <a href='facebook.com'>
               <i className='fab fa-facebook'></i>
-            </Link>
-            <Link to='gmail.com'>
-              <i className='fab fa-google-plus-g'></i>
-            </Link>
-            <Link to='youtube.com'>
-              <i className='fab fa-youtube'></i>
-            </Link>
-            <Link to='instagram.com'>
+            </a>
+            <a href='instagram.com'>
               <i className='fab fa-instagram'></i>
-            </Link>
+            </a>
+            <a href='twitter.com'>
+              <i className='fab fa-twitter'></i>
+            </a>
+            <a href='gmail.com'>
+              <i className='fab fa-google-plus-g'></i>
+            </a>
+            <a href='youtube.com'>
+              <i className='fab fa-youtube'></i>
+            </a>
           </div>
         </div>
       </div>

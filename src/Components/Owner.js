@@ -1,5 +1,5 @@
 import React from 'react'
-import OwnerPic from '../images/carousel/pic1.jpg'
+import dev1 from '../images/devs/dev1.jpeg'
 function Owner() {
   return (
     <React.Fragment>
@@ -23,9 +23,10 @@ function Owner() {
             </p>
           </div>
           <div className='col-lg-6'>
-            <img src={OwnerPic} alt='' className='img-fluid' />
+            <img src={dev1} alt='' className='img-fluid' />
           </div>
         </div>
+        <hr />
       </div>
     </React.Fragment>
   )
