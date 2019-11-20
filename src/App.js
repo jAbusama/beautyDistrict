@@ -9,6 +9,7 @@ import About from './Components/About'
 import Owner from './Components/Owner'
 import Team from './Components/TeamNextdapps'
 import Social from './Components/Social'
+import Footer from './Components/Footer'
 import './App.css'
 
 function App() {
@@ -19,10 +20,12 @@ function App() {
         <Carousel />
         <Welcome />
         <Products />
-        <About />
+
         <Owner />
         <Team />
         <Social />
+        <About />
+        <Footer />
       </div>
     </Router>
   )

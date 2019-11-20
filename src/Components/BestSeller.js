@@ -1,13 +1,12 @@
 import React from 'react'
-import OwnerPic from '../images/carousel/pic1.jpg'
-function Owner() {
+import best1 from '../images/carousel/pic2.jpg'
+function BestSeller() {
   return (
     <React.Fragment>
       <div className='container-fluid-padding'>
         <div className='row padding'>
           <div className='col-md-12 col-lg-6'>
             <h2>Owner Info..</h2>
-            <hr />
             <p>
               {' '}
               asdjasjk daksdjkhajsk dakjshdjkah askd kadlkasd dajdklas
@@ -23,11 +22,11 @@ function Owner() {
             </p>
           </div>
           <div className='col-lg-6'>
-            <img src={OwnerPic} alt='' className='img-fluid' />
+            <img src={best1} alt='' className='img-fluid' />
           </div>
         </div>
       </div>
     </React.Fragment>
   )
 }
-export default Owner
+export default BestSeller

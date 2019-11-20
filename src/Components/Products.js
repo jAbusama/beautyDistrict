@@ -9,6 +9,7 @@ function Products() {
           <div className='col-12'>
             <h1 className='display-4'>Products</h1>
           </div>
+
           <div className='col-xs-12 col-sm-6 col-md-3'>
             <div className='card'>
               <img src='' alt='' className='card-img-top' />
@@ -45,10 +46,11 @@ function Products() {
               </div>
             </div>
           </div>
-          <div className='col-xs-12 col-sm-12 col-md-12 mt-2'>
+          <div className='col-12'>
             <button className='btn btn-link btn-lg'>
               <Link to='/products'>See more..</Link>
             </button>
+            <hr />
           </div>
         </div>
       </div>

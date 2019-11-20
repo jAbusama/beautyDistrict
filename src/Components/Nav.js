@@ -13,7 +13,8 @@ function Nav() {
             className='navbar-toggler'
             type='button'
             data-toggle='collapse'
-            data-target='#navbarResponsive'>
+            data-target='#navbarResponsive'
+          >
             <span className='navbar-toggler-icon'></span>
           </button>
           <div className='collapse navbar-collapse' id='navbarResponsive'>
@@ -27,9 +28,14 @@ function Nav() {
                 <Link className='nav-link' to='about_us'></Link>
               </li>
               <li className='nav-item'>
-                <a href='#' className='nav-link'>
+                <Link className='nav-link' to='/about_us'>
                   ABOUT US
-                </a>
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link className='nav-link' to='/contact_us'>
+                  CONTACT US
+                </Link>
               </li>
             </ul>
           </div>
