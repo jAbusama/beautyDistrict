@@ -19,26 +19,19 @@ function Nav() {
           </button>
           <div className='collapse navbar-collapse' id='navbarResponsive'>
             <ul className='navbar-nav ml-auto'>
-              <li className='nav-item'>
-                <Link className='nav-link' to='/products'>
-                  PRODUCTS
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link' to='about_us'></Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link' to='/about_us'>
-                  ABOUT US
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link' to='/contact_us'>
-                  CONTACT US
-                </Link>
-              </li>
               <li className='nav-item dropdown'>
                 <DdProducts />
+              </li>
+
+              <li className='nav-item'>
+                <Link className='nav-link' to='#about_us'>
+                  About Us
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link className='nav-link' to='#contact_us'>
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>

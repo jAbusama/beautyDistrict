@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 function About() {
   return (
     <React.Fragment>
-      <div className='row jumbotron jumbotron-fluid'>
+      <div className='row jumbotron jumbotron-fluid' id='about_us'>
         <div className='container-fluid'>
           <div className='row padding text-center'>
             <div className='col-12'>
