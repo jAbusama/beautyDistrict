@@ -6,7 +6,7 @@ function Social() {
       <div className='container-fluid padding'>
         <div className='row text-center padding'>
           <div className='col-12'>
-            <h2>Social</h2>
+            <h1 className='display-4'>Social</h1>
           </div>
           <div className='col-12 social padding'>
             <a href='facebook.com'>

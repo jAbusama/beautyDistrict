@@ -1,19 +1,24 @@
 import React from 'react'
 import pic1 from '../images/carousel/pic1.jpg'
 import pic2 from '../images/carousel/pic2.jpg'
-import pic3 from '../images/carousel/pic3.jpg'
 import pic4 from '../images/carousel/pic4.png'
-function ImageSlider() {
+import pic5 from '../images/products/perfumes/product5.jpg'
+import pic3 from '../images/products/perfumes/product14.jpg'
+function ImageSlider(props) {
+  //console.log(props)
   return (
     <React.Fragment>
-      <div className='carousel slide' id='slides' data-ride='carousel'>
+      <div
+        className='carousel slide ustify-content-center'
+        id='slides'
+        data-ride='carousel'>
         <ul className='carousel-indicators'>
           <li data-target='#slides' data-slide-to='0' className='active'></li>
           <li data-target='#slides' data-slide-to='1'></li>
           <li data-target='#slides' data-slide-to='2'></li>
           <li data-target='#slides' data-slide-to='3'></li>
         </ul>
-        <div className='carousel-inner'>
+        <div className='carousel-inner j text-center'>
           <div className='carousel-item active'>
             <img src={pic4} alt='' className='img-fluid' />
             <div className='carousel-caption'>
@@ -27,13 +32,13 @@ function ImageSlider() {
             </div>
           </div>
           <div className='carousel-item'>
-            <img src={pic1} alt='' className=' img-fluid' />
+            <img src={pic5} alt='' className=' img-fluid' />
           </div>
           <div className='carousel-item'>
-            <img src={pic2} alt='' className=' img-fluid d-block w-100' />
+            <img src={pic3} alt='' className=' img-fluid d-block w-100' />
           </div>
           <div className='carousel-item '>
-            <img src={pic3} alt='' className='img-fluid' />
+            <img src={pic2} alt='' className='img-fluid' />
           </div>
         </div>
       </div>

@@ -1,12 +1,14 @@
 import React from 'react'
-
+import logo from '../images/logo/logo.png'
 function Footer() {
   return (
     <React.Fragment>
-      <div className='container-fluid padding bg-dark text-light'>
+      <div
+        className='container-fluid bg-dark text-light padding'
+        id='contact_us'>
         <div className='row text-center'>
           <div className='col-md-4'>
-            <img src='#' alt='' />
+            <img src={logo} alt='' />
             <hr className='light' />
             <p>444-444-444</p>
             <p>email@gmail.com</p>

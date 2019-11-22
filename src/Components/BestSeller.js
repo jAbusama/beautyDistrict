@@ -4,6 +4,7 @@ function BestSeller() {
   return (
     <React.Fragment>
       <div className='card-group'>
+        <div className='display-2'>Beauty Products</div>
         <div className='card'>
           <img src='#' alt='' className='card-img-top' />
           <div className='card-body'>

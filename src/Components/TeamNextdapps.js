@@ -4,15 +4,16 @@ import dev2 from '../images/devs/dev2.jpeg'
 function TeamNextdapps() {
   return (
     <React.Fragment>
-      <div className='container-fluid padding'>
+      <div className='container-fluid '>
         <div className='row welcome text-center'>
           <div className='col-12'>
             <h1 className='display-4'>Meet the NextDapps</h1>
+            <hr />
           </div>
         </div>
       </div>
       <div className='container-fluid padding'>
-        <div className='row padding'>
+        <div className='row '>
           <div className='col-md-4'>
             <div className='card'>
               <img src={dev1} alt='' className='card-img-top' />

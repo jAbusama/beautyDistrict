@@ -5,7 +5,7 @@ function DdProducts() {
   return (
     <React.Fragment>
       <a
-        class='nav-link dropdown-toggle'
+        className='nav-link dropdown-toggle'
         href='#'
         id='navbarDropdown'
         role='button'
@@ -15,11 +15,14 @@ function DdProducts() {
         Products
       </a>
       <div className='dropdown-menu' aria-labelledby='navbarDropdown'>
-        <Link to='' className='dropdown-item'>
-          Beauty Products and Apparels
+        <Link to='/beauty_products' className='dropdown-item'>
+          Beauty Products
         </Link>
-        <Link to='' className='dropdown-item'>
+        <Link to='/perfumes' className='dropdown-item'>
           Perfumes
+        </Link>
+        <Link to='/apparels' className='dropdown-item'>
+          Apparels
         </Link>
       </div>
     </React.Fragment>
