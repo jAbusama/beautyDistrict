@@ -30,7 +30,11 @@ function Perfumes() {
           <div className='row'>
             <div className='card-group col-sm-12 col-md-12'>
               <div className='card'>
-                <img src={product1} alt='' className='card-img-top img-fluid' />
+                <img
+                  src={product1}
+                  alt='Perfume Products 1'
+                  className='card-img-top img-fluid'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product1</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -38,7 +42,11 @@ function Perfumes() {
               </div>
 
               <div className='card'>
-                <img src={product2} alt='' className='card-img-top' />
+                <img
+                  src={product2}
+                  alt='Perfume Products 2'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product2</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -46,21 +54,33 @@ function Perfumes() {
               </div>
 
               <div className='card'>
-                <img src={product3} alt='' className='card-img-top' />
+                <img
+                  src={product3}
+                  alt='Perfume Products 3'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product3</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={product4} alt='' className='card-img-top' />
+                <img
+                  src={product4}
+                  alt='Perfume Products 4'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product4</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={product5} alt='' className='card-img-top' />
+                <img
+                  src={product5}
+                  alt='Perfume Products 5'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product5</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -75,7 +95,11 @@ function Perfumes() {
           <div className='row'>
             <div className='card-group  col-sm-12 col-md-12'>
               <div className='card'>
-                <img src={product6} alt='' className='card-img-top' />
+                <img
+                  src={product6}
+                  alt='Perfume Products 6'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product1</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -83,7 +107,11 @@ function Perfumes() {
               </div>
 
               <div className='card'>
-                <img src={product7} alt='' className='card-img-top' />
+                <img
+                  src={product7}
+                  alt='Perfume Products 7'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product2</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -91,21 +119,33 @@ function Perfumes() {
               </div>
 
               <div className='card'>
-                <img src={product11} alt='' className='card-img-top' />
+                <img
+                  src={product11}
+                  alt='Perfume Products 8'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product3</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={product9} alt='' className='card-img-top' />
+                <img
+                  src={product9}
+                  alt='Perfume Products 9'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product4</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={product10} alt='' className='card-img-top' />
+                <img
+                  src={product10}
+                  alt='Perfume Products 10'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product5</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -120,7 +160,11 @@ function Perfumes() {
           <div className='row '>
             <div className='card-group rounded col-sm-12 col-md-12'>
               <div className='card'>
-                <img src={product11} alt='' className='card-img-top' />
+                <img
+                  src={product11}
+                  alt='Perfume Products 11'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product1</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -128,7 +172,11 @@ function Perfumes() {
               </div>
 
               <div className='card'>
-                <img src={product12} alt='' className='card-img-top' />
+                <img
+                  src={product12}
+                  alt='Perfume Products 12'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product2</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -136,21 +184,33 @@ function Perfumes() {
               </div>
 
               <div className='card'>
-                <img src={product13} alt='' className='card-img-top' />
+                <img
+                  src={product13}
+                  alt='Perfume Products 13'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product3</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={product14} alt='' className='card-img-top' />
+                <img
+                  src={product14}
+                  alt='Perfume Products 4'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product4</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={product15} alt='' className='card-img-top' />
+                <img
+                  src={product15}
+                  alt='Perfume Products 15'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product5</h5>
                   <p className='card-text'>This is the definition of product</p>

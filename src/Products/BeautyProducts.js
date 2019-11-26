@@ -34,7 +34,11 @@ function BeautyProducts({ match }) {
           <div className='row'>
             <div className='card-group col-sm-12 col-md-12'>
               <div className='card'>
-                <img src={beauty1} alt='' className='card-img-top' />
+                <img
+                  src={beauty1}
+                  alt='Beauty Products 1'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>beauty1</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -42,7 +46,11 @@ function BeautyProducts({ match }) {
               </div>
 
               <div className='card'>
-                <img src={beauty12} alt='' className='card-img-top' />
+                <img
+                  src={beauty12}
+                  alt='Beauty Products 2'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>beauty1</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -50,21 +58,33 @@ function BeautyProducts({ match }) {
               </div>
 
               <div className='card'>
-                <img src={beauty3} alt='' className='card-img-top' />
+                <img
+                  src={beauty3}
+                  alt='Beauty Products 3'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product3</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={beauty4} alt='' className='card-img-top' />
+                <img
+                  src={beauty4}
+                  alt='Beauty Products 4'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product4</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={beauty5} alt='' className='card-img-top' />
+                <img
+                  src={beauty5}
+                  alt='Beauty Products 5'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product5</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -79,7 +99,11 @@ function BeautyProducts({ match }) {
           <div className='row'>
             <div className='card-group col-sm-12 col-md-12'>
               <div className='card'>
-                <img src={beauty6} alt='' className='card-img-top' />
+                <img
+                  src={beauty6}
+                  alt='Beauty Products 6'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>beauty1</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -87,7 +111,11 @@ function BeautyProducts({ match }) {
               </div>
 
               <div className='card'>
-                <img src={beauty7} alt='' className='card-img-top' />
+                <img
+                  src={beauty7}
+                  alt='Beauty Products 7'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>beauty1</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -95,21 +123,33 @@ function BeautyProducts({ match }) {
               </div>
 
               <div className='card'>
-                <img src={beauty8} alt='' className='card-img-top' />
+                <img
+                  src={beauty8}
+                  alt='Beauty Products 8'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product3</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={beauty9} alt='' className='card-img-top' />
+                <img
+                  src={beauty9}
+                  alt='Beauty Products 9'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product4</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={beauty10} alt='' className='card-img-top' />
+                <img
+                  src={beauty10}
+                  alt='Beauty Products 10'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product5</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -124,7 +164,11 @@ function BeautyProducts({ match }) {
           <div className='row'>
             <div className='card-group col-sm-12 col-md-12'>
               <div className='card'>
-                <img src={beauty11} alt='' className='card-img-top' />
+                <img
+                  src={beauty11}
+                  alt='Beauty Products 11'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>beauty1</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -132,7 +176,11 @@ function BeautyProducts({ match }) {
               </div>
 
               <div className='card'>
-                <img src={beauty12} alt='' className='card-img-top' />
+                <img
+                  src={beauty12}
+                  alt='Beauty Products 12'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>beauty1</h5>
                   <p className='card-text'>This is the definition of product</p>
@@ -140,21 +188,33 @@ function BeautyProducts({ match }) {
               </div>
 
               <div className='card'>
-                <img src={beauty13} alt='' className='card-img-top' />
+                <img
+                  src={beauty13}
+                  alt='Beauty Products 13'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product3</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={beauty14} alt='' className='card-img-top' />
+                <img
+                  src={beauty14}
+                  alt='Beauty Products 14'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product4</h5>
                   <p className='card-text'>This is the definition of product</p>
                 </div>
               </div>
               <div className='card'>
-                <img src={beauty15} alt='' className='card-img-top' />
+                <img
+                  src={beauty15}
+                  alt='Beauty Products 15'
+                  className='card-img-top'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>Product5</h5>
                   <p className='card-text'>This is the definition of product</p>

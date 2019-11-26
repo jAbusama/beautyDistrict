@@ -18,11 +18,8 @@ function TeamNextdapps() {
             <div className='card'>
               <img src={dev1} alt='' className='card-img-top' />
               <div className='card-body'>
-                <h4 className='card-title'>NextDapps</h4>
-                <p className='card-text'>
-                  fasjfjakshj akds akdashkjasdjkas dka klasdjkashjkajksd kasdk
-                  adkj
-                </p>
+                <h4 className='card-title'>Frank</h4>
+                <p className='card-text'>General Manager</p>
               </div>
             </div>
           </div>
@@ -30,11 +27,8 @@ function TeamNextdapps() {
             <div className='card'>
               <img src={dev1} alt='' className='card-img-top' />
               <div className='card-body'>
-                <h4 className='card-title'>NextDapps</h4>
-                <p className='card-text'>
-                  fasjfjakshj akds akdashkjasdjkas dka klasdjkashjkajksd kasdk
-                  adkj
-                </p>
+                <h4 className='card-title'>Jep</h4>
+                <p className='card-text'>Software Developer</p>
               </div>
             </div>
           </div>
@@ -42,11 +36,8 @@ function TeamNextdapps() {
             <div className='card'>
               <img src={dev1} alt='' className='card-img-top' />
               <div className='card-body'>
-                <h4 className='card-title'>NextDapps</h4>
-                <p className='card-text'>
-                  fasjfjakshj akds akdashkjasdjkas dka klasdjkashjkajksd kasdk
-                  adkj
-                </p>
+                <h4 className='card-title'>Ajie</h4>
+                <p className='card-text'>Software Developer</p>
               </div>
             </div>
           </div>

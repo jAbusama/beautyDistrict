@@ -8,7 +8,7 @@ function Footer() {
         id='contact_us'>
         <div className='row text-center'>
           <div className='col-md-4'>
-            <img src={logo} alt='' />
+            <img src={logo} alt='logo' />
             <hr className='light' />
             <p>444-444-444</p>
             <p>email@gmail.com</p>

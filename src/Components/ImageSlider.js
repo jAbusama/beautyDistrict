@@ -1,9 +1,10 @@
 import React from 'react'
 import pic1 from '../images/carousel/pic1.jpg'
 import pic2 from '../images/carousel/pic2.jpg'
-import pic4 from '../images/carousel/pic4.png'
+import pic4 from '../images/carousel/pic5.jpg'
 import pic5 from '../images/products/perfumes/product5.jpg'
 import pic3 from '../images/products/perfumes/product14.jpg'
+import dress1 from '../images/carousel/dress1.jpg'
 function ImageSlider(props) {
   //console.log(props)
   return (
@@ -20,25 +21,33 @@ function ImageSlider(props) {
         </ul>
         <div className='carousel-inner j text-center'>
           <div className='carousel-item active'>
-            <img src={pic4} alt='' className='img-fluid' />
+            <img src={dress1} alt='arouselperfume 1' className='img-fluid' />
             <div className='carousel-caption'>
+              <h1 className='display-2'>Beauty District</h1>
               <h3>Makes you beautiful</h3>
-              <button type='button' className='btn btn-outline-light btn-lg'>
+              <button type='button' className='btn btn-outline-dark btn-lg'>
                 Shop
               </button>
               <button className='btn btn-primary btn-lg' type='button'>
-                Contact Us
+                <a href='/#contact_us' className='contact'>
+                  {' '}
+                  Contact Us
+                </a>
               </button>
             </div>
           </div>
           <div className='carousel-item'>
-            <img src={pic5} alt='' className=' img-fluid' />
+            <img src={pic5} alt='carouselperfume 2' className=' img-fluid' />
           </div>
           <div className='carousel-item'>
-            <img src={pic3} alt='' className=' img-fluid d-block w-100' />
+            <img
+              src={pic3}
+              alt='arouselperfume 3'
+              className=' img-fluid d-block w-100'
+            />
           </div>
           <div className='carousel-item '>
-            <img src={pic2} alt='' className='img-fluid' />
+            <img src={pic2} alt='arouselperfume 4' className='img-fluid' />
           </div>
         </div>
       </div>

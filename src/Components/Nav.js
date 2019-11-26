@@ -15,7 +15,7 @@ function Nav({ props }) {
       <nav className='navbar navbar-expand-md navbar-dark bg-dark sticky-top'>
         <div className='container-fluid'>
           <Link to='/' className='navbar-brand'>
-            <img src={logo} alt='' />
+            <img src={logo} alt='logo' />
           </Link>
           <button
             className='navbar-toggler'
